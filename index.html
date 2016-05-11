@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <base href="/">
+        <script src="node_modules/systemjs/dist/system.js"></script>
+        <script src="node_modules/angular2-polyfill/bundles/angular2-polyfill.js"></script>
+        <script src="node_modules/reflect-metadata/Reflect.js"></script>
+        <script src="node_modules/zone.js/dist/zone.js"></script>
+        <script src="systemjs.config.js"></script>
+        <script>
+        // Loading the bootstrap file to start our app.
+        System.import('build/bootstrap');
+        </script>
+
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <main-app>
+            <div class="progress text-center" style="margin: 20%">
+                <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar"
+                     aria-valuenow="100" aria-valuemin="100" aria-valuemax="100" style="width:100%">
+                    Loading Angular 2 Application.
+                </div>
+            </div>
+        </main-app>
+    </body>
+</html>
